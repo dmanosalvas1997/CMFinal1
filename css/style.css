@@ -1,0 +1,102 @@
+@charset "utf-8";
+*{
+	margin: 0 auto;
+	
+}
+
+.menufijo{
+	position: fixed;
+	z-index: 1;
+	height: 100%;
+	display: inline-table;
+}
+
+ul{
+	display: table-cell;
+	vertical-align: middle;
+	list-style-type: none;
+}
+
+li{
+	margin: 0 auto;
+}
+
+.cf1{
+	height:100%;
+}
+.cf2{ 
+	text-align: center;
+	position: fixed;
+	z-index: 1;
+	height: 50px;
+}
+.cf4{
+	background-image: url("../fotos/3.png");
+	text-align: center;
+	height: 500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	
+}
+
+.cf5{
+	background-image: url("../fotos/5.png");
+	height: 500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	
+}
+
+.cf3{
+	background-image: url("../fotos/2.png");
+	height: 800px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+		
+}
+.cf{
+	text-align: center;
+}
+
+
+.parrafo{
+	background-color: gray;
+	text-align: center;	
+	
+}
+
+.col-md-6{
+	height: 500px;
+	text-align: center;
+
+}
+
+.col-md-3{
+	height:200px;
+	text-align: center;
+	width: 100%;
+}
+p{
+	font-family: 'Oxygen', sans-serif;
+	font-size: 18pt;
+	text-indent:10px;
+}
+
+h1{
+	font-family: 'Anton', sans-serif;
+	color:#C23436;
+	font-size: 80pt;
+}
+h2{
+	font-family:'Quicksand', sans-serif;
+	
+}
+h5{
+	font-family:'Quicksand', sans-serif;
+}
+img{
+	margin: 50px;
+}
